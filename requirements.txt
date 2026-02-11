@@ -2,4 +2,5 @@ pandas
 pydantic
 fastapi
 uvicorn
+scikit-learn
 numpy
