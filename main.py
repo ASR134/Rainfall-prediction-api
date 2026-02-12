@@ -6,7 +6,7 @@ from typing import Annotated
 import pickle
 
 # loaded model
-with open("rainfall_model.pkl","rb") as f:
+with open("rain_model.pkl","rb") as f:
     loaded_model = pickle.load(f)
 
 app = FastAPI()
